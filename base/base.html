@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Corener</title>
+     <!--Bootstrap Cdn-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <!--Animation on Scroll-->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <!--Css File Link-->
+ <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <!--NAv starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Clients</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Nav ends-->
+      <!--hero section-->
+      <section class="bg-dark text-light p-5 text-center text-sm-start" id="home">
+        <div class="container">
+            <div class="d-sm-flex align items-center justify-content-between">
+                <div data-aos="fade-up">
+                    <h1>SAR Infotech</h1>
+                    <h3 class="my-4">Innovation Meets Excellence</h3>
+                    <p class="lead my-4">SAR INFOTECH has been a premier web development and digital marketing service provider for the past four years, delivering exceptional solutions and driving online success for clients.
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
+                </div>
+                <a href="#">
+                    <img src="heroic-img.png" class="img-fluid" height="500" width="1000">
+                </a>
+            </div>
+        </div>
+        </section>
+      <!--end hero section-->
+      <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="mt-4">
+                    <h1>SAR INFOTECH : <span id="element" class="font-weight-bold" style="color: #4FAA39 "></span></h1>
+                </div>
+                <div data-aos="fade-right" class="mt-4">
+                    <p>For four years, SAR INFOTECH has been a beacon of innovation and excellence in the digital realm, delivering superior web development and digital marketing services. 
+                        Innovation is our driving force, propelling us to continually evolve and provide clients with cutting-edge solutions. Our team of seasoned professionals combines technical expertise with creative flair to craft bespoke websites, robust web applications, and strategic digital marketing campaigns tailored to each client's unique needs. We take pride in the quality and reliability of our services, ensuring every project exceeds expectations. In the competitive landscape of digital marketing, we stand out as trusted partners, leveraging data-driven strategies to maximize ROI. Client satisfaction is paramount, and we strive to build long-lasting relationships based on transparency, communication, and shared success. 
+                        As we look to the future, SAR INFOTECH remains committed to innovation and excellence, poised to lead clients towards greater online success</p>
+                    <p>In the fiercely competitive landscape of digital marketing, SAR INFOTECH stands out as a trusted partner for businesses seeking to enhance their online presence and drive measurable results. Our team of digital marketing experts specializes in crafting data-driven strategies that leverage the latest tools and techniques to maximize ROI. From search engine optimization (SEO) and pay-per-click (PPC) advertising to social media marketing and content creation, we deploy a multi-faceted approach to help our clients achieve their marketing objectives.</p>
+                </div>
+                <div class="col-md-4">
+                    <div data-aos="fade-left">
+                        <img src=""
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</body>
+<!--Javascript cdn-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/c081603423.js" crossorigin="anonymous"></script>
+<!--Animation on Scroll-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--Initialize AOS-->
+<script>
+    AOS.init();
+  </script>
+<!--Bootstrap icons-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Web Development</i>','Digital Marketing','4+years of Experience'],
+      typeSpeed: 30,
+    });
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
